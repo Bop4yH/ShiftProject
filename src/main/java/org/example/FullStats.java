@@ -4,17 +4,19 @@ import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.math.MathContext;
 
-public class fullStats extends Stats {
-    private BigDecimal minFloat, maxFloat,
-            sumFloat;
+public class FullStats extends Stats {
+    private BigDecimal minFloat;
+    private BigDecimal maxFloat;
+    private BigDecimal sumFloat;
 
-    private BigInteger minInt, maxInt,
-            sumInt;
+    private BigInteger minInt;
+    private BigInteger maxInt;
+    private BigInteger sumInt;
 
+    private int longestStr;
+    private int shortestStr;
 
-    private int longestStr, shortestStr;
-
-    public fullStats() {
+    public FullStats() {
         super();
         sumInt = BigInteger.valueOf(0);
         sumFloat = BigDecimal.valueOf(0);

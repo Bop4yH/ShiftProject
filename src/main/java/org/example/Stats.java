@@ -1,9 +1,9 @@
 package org.example;
 
 public abstract class Stats {
-    private int countInt,
-            countFloat,
-            countStr;
+    private int countInt;
+    private int countFloat;
+    private int countStr;
 
     public Stats() {
         this.countInt = 0;

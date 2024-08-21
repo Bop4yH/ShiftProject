@@ -1,7 +1,7 @@
 package org.example;
 
-public class shortStats extends Stats {
-    public shortStats() {
+public class ShortStats extends Stats {
+    public ShortStats() {
         super();
     }
 

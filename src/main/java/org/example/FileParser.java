@@ -9,9 +9,9 @@ public class FileParser {
     private final Path input;
     private final ParserOptions options;
 
-    private Path outInt = Path.of("integers.txt"),
-            outFloat = Path.of("floats.txt"),
-            outStr = Path.of("strings.txt");
+    private Path outInt = Path.of("integers.txt");
+    private Path outFloat = Path.of("floats.txt");
+    private Path outStr = Path.of("strings.txt");
 
     public FileParser(String input, ParserOptions options) {
         this.input = Path.of(input);

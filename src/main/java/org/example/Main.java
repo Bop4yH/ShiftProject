@@ -12,7 +12,7 @@ public class Main {
 
     public static void main(String[] args) {
         ParserOptions options = new ParserOptions(args);
-        Stats stats = options.isShortStats() ? new shortStats() : new fullStats();
+        Stats stats = options.isShortStats() ? new ShortStats() : new FullStats();
         List<String> logs = new ArrayList<>();
         if (options.isValid()) {
 
